@@ -21,6 +21,4 @@ ENV \
 
 COPY ./overlay /
 
-RUN bf-install
-
 VOLUME [ "/files", "/ssl" ]
